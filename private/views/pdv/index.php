@@ -159,7 +159,7 @@
           <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
-                <img src="<?=ASSETS?>pdv/images/o2.jpg" alt="">
+                <img src="<?=ASSETS . THEME?>images/o2.jpg" alt="">
               </div>
               <div class="detail-box">
                 <h5>
@@ -256,7 +256,7 @@
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="<?=ASSETS?>pdv/images/f1.png" alt="">
+                  <img src="<?=ASSETS . THEME?>images/f1.png" alt="">
                 </div>
                 <div class="detail-box">
                   <h5>

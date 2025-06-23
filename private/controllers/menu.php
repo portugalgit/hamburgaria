@@ -5,7 +5,8 @@ Class Menu extends Controller
  
   public function index()
   {
-    $this->view("pdv/menu");
+    $data['page_title'] = "Menu";
+    $this->view("menu",$data);
   }
 
 }
