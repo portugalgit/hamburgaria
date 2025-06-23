@@ -3,19 +3,19 @@
 //iniciar GPS
 session_start();
 //pegar a url
-$URL = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
+$rota = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
 //retirar o index.php no final
-$URL = str_replace("index.php","",$URL);
+$rota = str_replace("index.php","",$rota);
 
 //definir a rota
-define('ROOT',$URL);
-define('ASSETS',$URL . "assets/");
-
+define('ROOT',$rota);
+define('ASSETS',$rota. "assets/");
 
 //carregar aqui o ficheiro (croquis de localização do bairro)
-include '../private/init.php';
+require "../private/core/init.php";
 
 //show(ASSETS);
+
 //levantar a casa
 $app = new App();
 

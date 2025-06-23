@@ -7,6 +7,8 @@ define("DB_NAME","hamb_db");
 define("DB_USER","root");
 define("DB_PASS","");
 
+define('THEME','pdv/');
+
 //debug
 define('DEBUG', true);
 

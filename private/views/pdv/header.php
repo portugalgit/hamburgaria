@@ -11,24 +11,24 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="<?=ASSETS?>pdv/images/favicon.png" type="">
+  <link rel="shortcut icon" href="<?=ASSETS . THEME?>images/favicon.png" type="">
 
   <title> <?= $data['page_title']?></title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="<?=ASSETS?>pdv/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="<?=ASSETS . THEME?>css/bootstrap.css" />
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="<?=ASSETS?>pdv/https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
-  <link rel="stylesheet" href="<?=ASSETS?>pdv/https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <link href="<?=ASSETS?>pdv/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="<?=ASSETS . THEME?>css/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="<?=ASSETS?>pdv/css/style.css" rel="stylesheet" />
+  <link href="<?=ASSETS . THEME?>css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="<?=ASSETS?>pdv/css/responsive.css" rel="stylesheet" />
+  <link href="<?=ASSETS . THEME?>css/responsive.css" rel="stylesheet" />
 
 </head>
 
@@ -36,13 +36,13 @@
 
   <div class="hero_area">
     <div class="bg-box">
-      <img src="<?=ASSETS?>pdv/images/hero-bg.jpg" alt="">
+      <img src="<?=ASSETS . THEME?>images/hero-bg.jpg" alt="">
     </div>
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="<?=ASSETS?>pdv/index.php">
+          <a class="navbar-brand" href="<?=ASSETS . THEME?>index.php">
             <span>
               Feane
             </span>
@@ -72,7 +72,7 @@
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <a class="cart_link" href="#">
-                <svg version="1.1" id="Capa_1" xmlns="<?=ASSETS?>pdv/http://www.w3.org/2000/svg" xmlns:xlink="<?=ASSETS?>pdv/http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                <svg version="1.1" id="Capa_1" xmlns="<?=ASSETS . THEME?>http://www.w3.org/2000/svg" xmlns:xlink="<?=ASSETS . THEME?>http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                   <g>
                     <g>
                       <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248

@@ -71,9 +71,9 @@
       <div class="footer-info">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="<?=ASSETS?>pdv/https://html.design/">Free Html Templates</a><br><br>
+          <a href="<?=ASSETS . THEME?>https://html.design/">Free Html Templates</a><br><br>
           &copy; <span id="displayYear"></span> Distributed By
-          <a href="<?=ASSETS?>pdv/https://themewagon.com/" target="_blank">ThemeWagon</a>
+          <a href="<?=ASSETS . THEME?>https://themewagon.com/" target="_blank">ThemeWagon</a>
         </p>
       </div>
     </div>
@@ -81,23 +81,23 @@
   <!-- footer section -->
 
   <!-- jQery -->
-  <script src="<?=ASSETS?>pdv/js/jquery-3.4.1.min.js"></script>
+  <script src="<?=ASSETS . THEME?>js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
-  <script src="<?=ASSETS?>pdv/https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  <script src="<?=ASSETS . THEME?>https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <!-- bootstrap js -->
-  <script src="<?=ASSETS?>pdv/js/bootstrap.js"></script>
+  <script src="<?=ASSETS . THEME?>js/bootstrap.js"></script>
   <!-- owl slider -->
-  <script src="<?=ASSETS?>pdv/https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  <script src="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
   <!-- isotope js -->
-  <script src="<?=ASSETS?>pdv/https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <script src="<?=ASSETS . THEME?>https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
   <!-- nice select -->
-  <script src="<?=ASSETS?>pdv/https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <script src="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
   <!-- custom js -->
-  <script src="<?=ASSETS?>pdv/js/custom.js"></script>
+  <script src="<?=ASSETS . THEME?>js/custom.js"></script>
   <!-- Google Map -->
-  <script src="<?=ASSETS?>pdv/https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  <script src="<?=ASSETS . THEME?>https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
 
