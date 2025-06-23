@@ -5,7 +5,8 @@ Class Book extends Controller
  
   public function index()
   {
-    $this->view("pdv/book");
+    $data['page_title'] = "Book";
+    $this->view("book",$data);
   }
 
 }

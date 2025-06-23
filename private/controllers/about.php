@@ -5,7 +5,8 @@ Class About extends Controller
  
   public function index()
   {
-    $this->view("pdv/about");
+    $data['page_title'] = "About";
+    $this->view("about",$data);
   }
 
 }

@@ -159,7 +159,7 @@
           <div class="col-md-6  ">
             <div class="box ">
               <div class="img-box">
-                <img src="<?=ASSETS?>pdv/images/o2.jpg" alt="">
+                <img src="<?=ASSETS . THEME?>images/o2.jpg" alt="">
               </div>
               <div class="detail-box">
                 <h5>
