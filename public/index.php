@@ -1,10 +1,8 @@
 <?php
 
-//iniciar GPS
 session_start();
 //pegar a url
 $rota = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
-//retirar o index.php no final
 $rota = str_replace("index.php","",$rota);
 
 //definir a rota
