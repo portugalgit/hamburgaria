@@ -19,9 +19,9 @@
   <link rel="stylesheet" type="text/css" href="<?=ASSETS . THEME?>css/bootstrap.css" />
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
-  <link rel="stylesheet" href="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
   <link href="<?=ASSETS . THEME?>css/font-awesome.min.css" rel="stylesheet" />
 
@@ -44,7 +44,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="<?=ASSETS . THEME?>index">
             <span>
-              Feane
+              ACELNET
             </span>
           </a>
 
@@ -61,10 +61,10 @@
                 <a class="nav-link" href="menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" href="about">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book">Book Table</a>
+                <a class="nav-link" href="book">Encomendar</a>
               </li>
             </ul>
             <div class="user_option">
@@ -72,7 +72,7 @@
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <a class="cart_link" href="#">
-                <svg version="1.1" id="Capa_1" xmlns="<?=ASSETS . THEME?>http://www.w3.org/2000/svg" xmlns:xlink="<?=ASSETS . THEME?>http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                   <g>
                     <g>
                       <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248

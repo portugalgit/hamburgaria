@@ -13,15 +13,15 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="<?=ASSETS . THEME?>images/favicon.png" type="">
 
-  <title> Feane </title>
+  <title> <?= $data['page_title']?></title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="<?=ASSETS . THEME?>css/bootstrap.css" />
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
-  <link rel="stylesheet" href="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
   <link href="<?=ASSETS . THEME?>css/font-awesome.min.css" rel="stylesheet" />
 
@@ -61,10 +61,10 @@
                 <a class="nav-link" href="menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" href="about">Sobre</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="book">Book Table <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="book">Encomendar <span class="sr-only">(current)</span> </a>
               </li>
             </ul>
             <div class="user_option">
@@ -72,7 +72,7 @@
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <a class="cart_link" href="#">
-                <svg version="1.1" id="Capa_1" xmlns="<?=ASSETS . THEME?>http://www.w3.org/2000/svg" xmlns:xlink="<?=ASSETS . THEME?>http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                   <g>
                     <g>
                       <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
@@ -275,9 +275,9 @@
       <div class="footer-info">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="<?=ASSETS . THEME?>https://html.design/">Free Html Templates</a><br><br>
+          <a href="https://html.design/">Free Html Templates</a><br><br>
           &copy; <span id="displayYear"></span> Distributed By
-          <a href="<?=ASSETS . THEME?>https://themewagon.com/" target="_blank">ThemeWagon</a>
+          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
         </p>
       </div>
     </div>
@@ -287,21 +287,21 @@
   <!-- jQery -->
   <script src="<?=ASSETS . THEME?>js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
-  <script src="<?=ASSETS . THEME?>https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <!-- bootstrap js -->
   <script src="<?=ASSETS . THEME?>js/bootstrap.js"></script>
   <!-- owl slider -->
-  <script src="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
   <!-- isotope js -->
-  <script src="<?=ASSETS . THEME?>https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
   <!-- nice select -->
-  <script src="<?=ASSETS . THEME?>https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
   <!-- custom js -->
   <script src="<?=ASSETS . THEME?>js/custom.js"></script>
   <!-- Google Map -->
-  <script src="<?=ASSETS . THEME?>https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
 
