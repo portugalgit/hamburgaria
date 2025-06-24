@@ -32,10 +32,10 @@
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              ACELNET
+              Acelnet
             </a>
             <p>
-              ACELNET - Formação, consultoria e prestação de serviços Luanda - Angola
+              Acelnet - Formação, consultoria e prestação de serviços Luanda - Angola
             </p>
             <div class="footer_social">
               <a href="">

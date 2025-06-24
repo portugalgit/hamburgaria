@@ -44,7 +44,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="<?=ASSETS . THEME?>index">
             <span>
-              ACELNET
+              Acelnet
             </span>
           </a>
 
